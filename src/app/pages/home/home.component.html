@@ -2,14 +2,24 @@
     <app-menu-bar></app-menu-bar>
 </header>
 
-<app-menu-title></app-menu-title>
+<app-menu-title ></app-menu-title>
 <div class="container__articles">
     <div class="articles__main">
-        <app-big-card></app-big-card>
+        <app-big-card 
+        [photoCover]="'https://ralfvanveen.com/wp-content/uploads/2021/06/Placeholder-_-Glossary.svg'"
+        [cardTitle]="'Saiu a nova versão do Angular'"
+        [cardDescription]="'Texto de descrição'"
+        ></app-big-card>
     </div>
     <div class="articles__others">
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
+        <app-small-card 
+        [photoCover]="'https://ralfvanveen.com/wp-content/uploads/2021/06/Placeholder-_-Glossary.svg'"
+        [cardTitle]="'Saiu a nova versão do Angular small card 1'"></app-small-card>
+        <app-small-card
+        [photoCover]="'https://ralfvanveen.com/wp-content/uploads/2021/06/Placeholder-_-Glossary.svg'"
+        [cardTitle]="'Saiu a nova versão do Angular small card 2'"></app-small-card>
+        <app-small-card
+        [photoCover]="'https://ralfvanveen.com/wp-content/uploads/2021/06/Placeholder-_-Glossary.svg'"
+        [cardTitle]="'Saiu a nova versão do Angular small card 3'"></app-small-card>
     </div>
 </div>
