@@ -3,14 +3,20 @@
 }
 
 .container__menu-title > h1{
-    margin-top: 15px;
+    padding-top: 55px;
     margin-bottom: 15px;
     font-size: 135px;
     font-family: 'segoe UI';
     display: flex;
     justify-content: center;
+    font-weight: bold;
+    background: linear-gradient(90deg, #D500F9, #FF1744, #FF6F00);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
 }
 
 .container__menu-title > hr{
     margin: 20px 0 5px;
 }
+

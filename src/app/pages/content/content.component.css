@@ -2,7 +2,7 @@
     width: 100%;
     height: 100%;
 
-    margin-top: 20px;
+    padding-top: 80px;
     
     display: flex;
     flex-direction: column;
@@ -10,18 +10,40 @@
 }
 
 
+
 .content__cover img{
-    border: 5px solid orange;
-    border-radius: 5px;
+    
     width: 500px;
     min-width: 500px;
 }
 
+.wrapper-content{
+    margin-top: 50px;
+    display: flex;
+    gap: 40px;
+}
+
+.content__title{
+    width: 500px;
+    font-size: 22px;
+    text-align: center;
+}
+
 .content__description{
     margin-top: 15px;
+    width: 500px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+h1 {
+    background: linear-gradient(90deg, #D500F9, #FF1744, #FF6F00);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .content__description p {
     margin-top: 20px;
-    color: rgb(186, 183, 183);
+    color: rgb(143, 143, 143);
 }

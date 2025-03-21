@@ -1,8 +1,21 @@
+.container__menu-bar{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.logo-avanade{
+    width: 120px;
+}
+
 .container__menu-bar > ul{
     display: flex;
+    flex-direction: row;
 }
 
 .container__menu-bar li{
     margin-right: 20px;
     list-style: none;
+    font-weight: bold;
 }
