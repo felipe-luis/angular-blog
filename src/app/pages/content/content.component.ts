@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, RouterModule } from '@angular/router';
 import { dataFake } from '../../data/dataFake';
+import { BaseButtonComponent } from "../../components/base-button/base-button.component";
 
 @Component({
   selector: 'app-content',
-  imports: [RouterModule],
+  imports: [RouterModule, BaseButtonComponent],
   templateUrl: './content.component.html',
   styleUrl: './content.component.css'
 })
