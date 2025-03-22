@@ -12,6 +12,8 @@ a{
 
 a:hover{
     cursor: pointer;
+    background-color: #575656;
+
 }
 
 .black-button{
