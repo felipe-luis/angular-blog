@@ -36,12 +36,7 @@
     font-size: 18px;
 }
 
-h1 {
-    background: linear-gradient(90deg, #D500F9, #FF1744, #FF6F00);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+
 
 .content__description p {
     margin-top: 20px;

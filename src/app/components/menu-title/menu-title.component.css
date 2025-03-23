@@ -4,15 +4,13 @@
 
 .container__menu-title > h1{
     padding-top: 55px;
-    margin-bottom: 15px;
+    margin-bottom: 100px;
     font-size: 135px;
     font-family: 'segoe UI';
     display: flex;
     justify-content: center;
     font-weight: bold;
-    background: linear-gradient(90deg, #D500F9, #FF1744, #FF6F00);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    
     
 }
 

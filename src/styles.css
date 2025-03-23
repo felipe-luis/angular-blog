@@ -12,3 +12,10 @@
 a{
     text-decoration: none;
 }
+
+h1{
+    background-image: linear-gradient(90deg, #D500F9, #FF1744, #FF6F00);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    color: transparent; 
+}
