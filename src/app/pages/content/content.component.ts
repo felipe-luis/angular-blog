@@ -1,5 +1,5 @@
 import { Component, inject, OnInit } from '@angular/core';
-import { ActivatedRoute, RouterModule } from '@angular/router';
+import { ActivatedRoute, Router, RouterModule } from '@angular/router';
 import { dataFake } from '../../data/dataFake';
 import { BaseButtonComponent } from "../../components/base-button/base-button.component";
 
@@ -15,6 +15,7 @@ export class ContentComponent implements OnInit {
   contentDescription: string = ""
   private id: string | null = "0"
   
+  router = inject(Router)
   route = inject(ActivatedRoute)
   
 
@@ -32,6 +33,12 @@ export class ContentComponent implements OnInit {
     this.contentDescription = result.description
     this.photoCover = result.photoCover
 
+  }
+
+  navigateTo(rota:string){
+    if(rota){
+      this.router.navigate([rota]);
+    }
   }
 
 

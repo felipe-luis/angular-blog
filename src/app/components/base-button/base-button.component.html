@@ -1,7 +1,11 @@
-<a *ngIf="routerLink" [ngClass]="typeButton" [routerLink]="routerLink">
+<a [ngClass]="typeButton" [href]="url">
+  {{ text }}
+</a>
+
+<!-- <a *ngIf="routerLink" [ngClass]="typeButton" [routerLink]="routerLink">
   {{ text }}
 </a>
 
 <a *ngIf="!routerLink && url" [ngClass]="typeButton" [href]="url">
   {{ text }}
-</a>
+</a> -->
