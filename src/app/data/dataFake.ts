@@ -19,8 +19,8 @@ export const dataFake = [
     },
     {
         "id": "4",
-        "title": "Melhor empresa!",
-        "description": "Avanade é considerada a melhor empresa para se estagiar",
-        "photoCover" : "https://media.licdn.com/dms/image/v2/D4D22AQGrBwPpxq72zQ/feedshare-shrink_800/B4DZPUsHXtGgAk-/0/1734440155435?e=2147483647&v=beta&t=T9AB2xkqXupJIKjZG5oYYbkqGe13q7AjJTxgk9wgdn0"
+        "title": "Inclusão e Diversidade",
+        "description": "Inclusão, Diversidade e Equidade faz parte de tudo o que fazemos, desde a forma como tratamos as nossas pessoas aos nossos processos de tomada de decisão, aos serviços que levamos ao mercado e às soluções que desenhamos para os nossos clientes, criando um ambiente inclusivo para todos.",
+        "photoCover" : "assets/imgs/inclusion-and-diversity.jpg"
     },
 ]

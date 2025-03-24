@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { ActivatedRoute, RouterModule } from '@angular/router';
 import { dataFake } from '../../data/dataFake';
 import { BaseButtonComponent } from "../../components/base-button/base-button.component";
@@ -12,12 +12,11 @@ import { BaseButtonComponent } from "../../components/base-button/base-button.co
 export class ContentComponent implements OnInit {
   photoCover: string = ""
   contentTitle: string = ""
-  contentDescription: string = "texto de descrição"
+  contentDescription: string = ""
   private id: string | null = "0"
-
-  constructor(private route: ActivatedRoute) {
-
-  }
+  
+  route = inject(ActivatedRoute)
+  
 
   ngOnInit(): void {
     this.route.paramMap.subscribe(value => this.id = value.get("id"))

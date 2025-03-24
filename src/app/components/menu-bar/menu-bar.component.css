@@ -12,11 +12,10 @@
 .container__menu-bar > ul{
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 40px;
 }
 
 .container__menu-bar li{
-    margin-right: 20px;
     list-style: none;
     font-weight: bold;
 }
@@ -25,6 +24,6 @@ li a:hover {
     font-weight: bold;
     background: linear-gradient(90deg, #ce0569 12.66%, #ff5800 94.55%);
     background-clip: text;
-    -webkit-background-clip: text; 
-    color: transparent; 
+    -webkit-background-clip: text;
+    color: transparent;
 }
