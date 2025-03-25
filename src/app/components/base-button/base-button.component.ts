@@ -9,7 +9,7 @@ import { Component, Input } from '@angular/core';
 })
 export class BaseButtonComponent {
   @Input() typeButton:string = 'black-button';
-  @Input() url?: string = '';
+  @Input() url?: string;
   @Input() text: string = '';
 
 }

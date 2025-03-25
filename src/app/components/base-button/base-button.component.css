@@ -9,19 +9,25 @@ a{
     
 }
 
-
 a:hover{
     cursor: pointer;
-    background-color: #575656;
-
 }
 
 .black-button{
     background-color: #333333;
-    color: white;
+
 }
+
+.black-button:hover{
+    background-color: #575656;
+
+}
+
 
 .orange-button{
     background-color: #ff5800;
-    color: white;
+}
+
+.orange-button:hover{
+    background-color: #ff752b;
 }
