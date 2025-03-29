@@ -35,11 +35,4 @@ export class ContentComponent implements OnInit {
 
   }
 
-  navigateTo(rota:string){
-    if(rota){
-      this.router.navigate([rota]);
-    }
-  }
-
-
 }
