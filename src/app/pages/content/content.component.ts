@@ -15,7 +15,6 @@ export class ContentComponent implements OnInit {
   contentDescription: string = ""
   private id: string | null = "0"
   
-  router = inject(Router)
   route = inject(ActivatedRoute)
   
 

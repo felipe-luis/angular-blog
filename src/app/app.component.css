@@ -6,3 +6,7 @@ header{
     width: 100%;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
+
+.pages{
+    padding-top: 60px;
+}
